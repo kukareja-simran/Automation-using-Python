@@ -2,7 +2,7 @@ name: py
 on: [push]
 jobs:
       build:
-        runs-on: linux-latest
+        runs-on: ubuntu-latest
     
         steps:
           - name: checkout repo content
